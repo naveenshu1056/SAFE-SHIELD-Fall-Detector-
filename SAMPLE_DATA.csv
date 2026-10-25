@@ -1,0 +1,6 @@
+timestamp,impact_flag,temperature_c,heart_rate_bpm,spo2_percent,systolic_placeholder,diastolic_placeholder,battery_adc,expected_note
+2026-01-01T10:00:00,0,36.5,72,98,0,0,3100,Normal illustrative sample
+2026-01-01T10:00:02,0,36.6,74,97,115,75,3095,FSR threshold triggered placeholder BP values
+2026-01-01T10:00:04,1,36.6,76,97,115,75,3088,Illustrative impact event; relay and SMS expected
+2026-01-01T10:00:06,1,36.7,0,0,0,0,2680,Illustrative invalid pulse readings and low battery ADC
+2026-01-01T10:00:18,0,36.7,75,98,0,0,2675,Impact flag cleared after hold interval
